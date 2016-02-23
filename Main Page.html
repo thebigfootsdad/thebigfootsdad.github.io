@@ -57,17 +57,20 @@
 				padding-right: 110px;
 			}
 			header {
-			background-color: #FFFCB7;
-			width: 750px;
-			margin 0 auto;
-			padding-bttom: 10 px;
-			padding-top: 5px;
-			margin-right: 310px;
-			margin-left: 92px;
-			padding-left: 50px;
-			padding-right: 110px;
+				background-color: #FFFCB7;
+				width: 500px;
+				margin-right: 310px;
+				margin-left: 400px;
+				padding-left: 200px;
+				padding-right: 110px;
 			}
 			h1		{
+				color: blue; 
+				size: 30px;
+				font-family: Bellota-Bold;
+				word-spacing: 5px;
+			}
+			#h1BlockQuote		{
 				color: blue; 
 				size: 30px;
 				font-family: Bellota-Bold;
@@ -97,7 +100,7 @@
 				font-family: Bellota-Light;
 				word-spacing: 5px;
 			}
-			blockquote		{
+			#bigIndent		{
 				color: green;
 				size: 20px;
 				font-family: timeburnernormal;
@@ -169,9 +172,9 @@
 		<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
 		<Title> Home </title>
 	</head>
+	<div>
 	<header> 
-	<header> 
-		<h1> Welcome </h1>
+		<h1> <blockquote id="h1BlockQuote">Welcome </blockquote></h1>
 		<p> This website is still in development, so please excuse any errors. </p>
 		<p> Enjoy the site! </p>
 	</header>
@@ -194,7 +197,7 @@
 			&nbsp <i>Italicized,</i><br />
 			&nbsp <q>Quoted,</q><br />
 			&nbsp <center>Centered,</center><br />
-			&nbsp <blockquote>Or indented.</blockquote><br />
+			&nbsp <blockquote id="bigIndent">Or indented.</blockquote><br />
 			&nbsp <p>Also, you can have images, Any ones you want! (Click on it if you want!)</p>
 			<a href="Other Pages/Page_2_Pickle_Salad.html">
 				<img src="Images/dancing-banana.gif" alt="Peanut Butter Jelly Time" />
@@ -211,6 +214,7 @@
 			</ul>
 			</p>
 	</body>
+	</div>
 	<aside>
 		<div id="sidebarOne">
 			<h1 format="title">&nbsp HI GUYS THERE IS <br /> &nbsp A SIDEBAR HERE!&nbsp </h1>
