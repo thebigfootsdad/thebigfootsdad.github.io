@@ -56,7 +56,21 @@
 				padding-left: 50px;
 				padding-right: 110px;
 			}
+			header {
+				background-color: #FFFCB7;
+				width: 500px;
+				margin-right: 310px;
+				margin-left: 92px;
+				padding-left: 50px;
+				padding-right: 110px;
+			}
 			h1		{
+				color: blue; 
+				size: 30px;
+				font-family: Bellota-Bold;
+				word-spacing: 5px;
+			}
+			#h1BlockQuote		{
 				color: blue; 
 				size: 30px;
 				font-family: Bellota-Bold;
@@ -80,7 +94,18 @@
 				font-family: timeburnernormal;
 				word-spacing: 5px;
 			}
-			blockquote		{
+			big		{
+				color: green;
+				size: 15px;
+				font-family: Bellota-Light;
+				word-spacing: 5px;
+			}
+			small		{
+				color: green;
+				font-family: Bellota-Light;
+				word-spacing: 5px;
+			}
+			#bigIndent		{
 				color: green;
 				size: 20px;
 				font-family: timeburnernormal;
@@ -90,27 +115,6 @@
 				size: 20px;
 				font-family: timeburnernormal;
 				word-spacing: 5px;
-			}
-			aside 	{
-				background-color: rgba(28, 220, 129, 0.49); 
-				position: absolute;
-				top:0; 
-				bottom: -1000px; 
-				left:0;
-				width: 275px;
-				margin: 0 auto;
-				clear: both;
-			}
-			header 	{
-				background-color: rgba(28, 220, 129, 0.49);
-				position: absolute;
-				top:0; 
-				bottom:-1000px; 
-				right:0;
-				width:275px;
-				margin: 0 auto;
-				clear: both;
-				padding-left: 1px;
 			}
 			footer 	{
 				background-color: rgba(211, 211, 211, 0); 
@@ -129,43 +133,68 @@
 			a:active  {
 				color:yellow; background-color:transparent; text-decoration:underline;
 			}
-			big		{
-				color: green;
-				size: 15px;
-				font-family: Bellota-Light;
-				word-spacing: 5px;
+			#sidebarOne {
+				background-color: rgba(28, 220, 129, 0.49); 
+				position: absolute;
+				top:0; 
+				bottom: -2000px; 
+				left:-100px;
+				width: 275px;
+				margin: 0 auto;
+				clear: both;
+			}
+			#sidebarTwo {
+				background-color: rgba(28, 220, 129, 0.49);
+				position: absolute;
+				top:0; 
+				bottom:-2000px; 
+				right:-317px;
+				width:275px;
+				margin: 0 auto;
+				clear: both;
+				padding-left: 1px;
+			}
+			#ArabicIndent {
+				dir: ltr;
+				lang: ar;
+				color: black;
 			}
 		</style>
 		<title> OMG THERE ARE APPLES </title>
 	</head>
 	<header>
-		<h1>&nbsp Hello &nbsp </h1>
-		<h2>&nbsp Welcome to my <br />&nbsp website!</h2>
-		<p> &nbsp 
+
 	</header>
 	<body>
 		<section>
-			<a href="../Main Page.html" >
+			<a href="../index.html" >
 				<img src="../Images/dancing taco.gif" alt="Not Peanut Butter Jelly Time" style="width:500px;height:500px;" />
 			</a>
 		</section>
 	</body>
 	<aside>
-		<h1 format="title">&nbsp HI GUYS THERE IS <br /> &nbsp A SIDEBAR HERE!&nbsp </h1>
-		<p> &nbsp <a href="../Main Page.html" > Go back to my main page here </a>
-		<p> &nbsp Contents: </p>
-		<ul>
-			<li><a href="../Other Pages/Page_3_About_Me.html"> About Me </a> </li>
-			<li><a href="../Other Pages/Page_4_BBCCCCCLOS_Pie.html"> My BBCCCCCLOS Pie </a> </li>
-		</ul>
-		<p> &nbsp Check out my: </p> <br /> 
-		<big>
-			&nbsp <a href="https://tumblr.com/blog/casuallycasualhottub" target="_blank">Tumblr</a> <br /> 
-			&nbsp <a href="https://instagram.com/dadbigfoot" target="_blank">Instagram</a> <br />
-			&nbsp <a href="https://facebook.com/fatherbigfoot" target="_blank">Facebook</a> <br />
-			&nbsp <a href="https://twitter.com/dadbigfoot" target="_blank">Twitter</a> <br />
-			&nbsp <a href="https://www.youtube.com/channel/UCCZ4RMJv7D1YVesMCjoO5DQ" target="_blank">Youtube</a> <br />
-		</big>
+		<div id='sidebarOne'>
+			<h1 format="title">&nbsp HI GUYS THERE IS <br /> &nbsp A SIDEBAR HERE!&nbsp </h1>
+			<p> &nbsp <a href="../index.html" > Go back to my main page here </a>
+			<p> &nbsp Contents: </p>
+			<ul>
+				<li><a href="../Other Pages/Page_3_About_Me.html"> About Me </a> </li>
+				<li><a href="../Other Pages/Page_4_BBCCCCCLOS_Pie.html"> My BBCCCCCLOS Pie </a> </li>
+			</ul>
+			<p> &nbsp Check out my: </p> <br /> 
+			<big>
+				&nbsp <a href="https://tumblr.com/blog/casuallycasualhottub" target="_blank">Tumblr</a> <br /> 
+				&nbsp <a href="https://instagram.com/dadbigfoot" target="_blank">Instagram</a> <br />
+				&nbsp <a href="https://facebook.com/fatherbigfoot" target="_blank">Facebook</a> <br />
+				&nbsp <a href="https://twitter.com/dadbigfoot" target="_blank">Twitter</a> <br />
+				&nbsp <a href="https://www.youtube.com/channel/UCCZ4RMJv7D1YVesMCjoO5DQ" target="_blank">Youtube</a> <br />
+			</big>
+		</div>
+		<div id='sidebarTwo'>
+			<h1>&nbsp Hello &nbsp </h1>
+			<h2>&nbsp Welcome to my <br />&nbsp website!</h2>
+			<p> &nbsp 
+		</div>
 	</aside>
 	<footer>
 		<small>&copy; TheBigFoot'sDad <br />
