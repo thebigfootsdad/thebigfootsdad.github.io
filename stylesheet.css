@@ -1,0 +1,181 @@
+@font-face {
+	font-family: "timeburnerbold";
+	src: url("Fonts/Timeburner/timeburnerbold.ttf");
+}
+@font-face {
+	font-family: "timeburnernormal";
+	src:url("Fonts/Timeburner/timeburnernormal.ttf");
+}
+@font-face {
+	font-family: "Bellota-Bold";
+	src:url("Fonts/Bellota/Bellota-Bold.otf");
+	}
+@font-face {
+	font-family: "Bellota-BoldItalic";
+	src:url("Fonts/Bellota/Bellota-BoldItalic.otf");
+}
+@font-face {
+	font-family: "Bellota-Italic";
+	src:url("Fonts/Bellota/Bellota-Italic.otf");
+}
+@font-face {
+	font-family: "Bellota-Light";
+	src:url("Fonts/Bellota/Bellota-Light.otf");
+}
+@font-face {
+	font-family: "bellota-LightItalic";
+	src:url("Fonts/Bellota/Bellota-LightItalic.otf");
+}
+@font-face {
+	font-family: "Bellota-Regular";
+	src:url("Fonts/Bellota/Bellota-Regular.otf");
+}
+body	{
+	display: block;
+	background-color: seagreen; 
+	border: 10px;
+	max-width:850px;
+	margin: 10px 260px 0 260px;
+	clear:both;
+}
+div.body	{
+	display: block;
+	background-color: seagreen; 
+	border: 10px;
+	max-width:850px;
+	margin: 20px 10px 0 10px;
+	clear:both;
+	padding: 10px 20px 10px 20px;
+}
+header {
+	background-color: seagreen;
+}
+h1		{
+	color: midnightblue; 
+	size: 30px;
+	font-family: Bellota-Bold;
+	word-spacing: 5px;
+}
+h1.BlockQuote		{
+	color: midnightblue; 
+	size: 30px;
+	font-family: Bellota-Bold;
+	word-spacing: 5px;
+}
+h2		{
+	color: midnightblue;
+	size: 25px;
+	font-family: timeburnerbold;
+	word-spacing: 5px;
+}
+p 		{
+	color: goldenrod;
+	size: 20px;
+	font-family: Bellota-Light;
+	word-spacing: 5px;
+}
+p.sidebar	{
+	color: goldenrod;
+	size: 20px;
+	font-family: Bellota-Light;
+	word-spacing: 5px;
+}
+li		{
+	color: goldenrod;
+	size: 20px;
+	font-family: Bellota-Light;
+	word-spacing: 5px;
+}
+big		{
+	color: goldenrod;
+	size: 22px;
+	font-family: Bellota-Light;
+	word-spacing: 5px;
+}
+small		{
+	color: goldenrod;
+	font-family: Bellota-Light;
+	word-spacing: 5px;
+}
+blockquote.bigIndent		{
+	color: goldenrod;
+	size: 20px;
+	font-family: Bellota-Light;
+}
+center		{
+	color: goldenrod;
+	size: 20px;
+	font-family: Bellota-Light;
+	word-spacing: 5px;
+}
+footer 	{
+	background-color: seagreen; 
+	clear: both;
+	padding-left: 150px;
+}
+a:link    {
+	color:gold; 
+	background-color:transparent; 
+	text-decoration:underline;
+}
+a:visited {
+	color:darkred; 
+	background-color:transparent; 
+	text-decoration:underline;
+}
+a:hover   {
+	color:darkred; 
+	background-color:transparent; 
+	text-decoration:underline;
+}
+a:active  {
+	color:gold; 
+	background-color:transparent; 
+	text-decoration:underline;
+}
+div.sidebarOne {
+	background-color: rgba(64, 224, 208, 0.50); 
+	position: absolute;
+	top: 0; 
+	bottom: -2000px; 
+	left: 1px;
+	width: 250px;
+	margin: 0 auto;
+	clear: all;
+	padding-left: 10px;
+}
+div.sidebarTwo {
+	background-color: rgba(64, 224, 208, 0.50);
+	position: absolute;
+	top: 0; 
+	bottom:-2000px; 
+	right: 1px;
+	width: 250px;
+	margin: 0 auto;
+	clear: all;
+	padding-left: 10px;
+}
+p.ArabicIndent {
+	direction: ltr;
+	color: black;
+}
+/* Frame */
+iframe {
+    -ms-transform:scale(0.60);
+    -moz-transform:scale(0.60);
+    -o-transform: scale(0.60);
+    -webkit-transform: scale(0.60);
+    transform:scale(0.60);
+}
+iframe {
+    position:relative;
+    top:-240px;
+    left:-220px;
+    height:1800px;
+    width:1700px;
+}
+div.wrapper {
+    overflow:hidden;
+    height:900px;
+    width:100%;
+}
