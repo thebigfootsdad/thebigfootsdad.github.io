@@ -35,7 +35,7 @@ body	{
 	background-color: seagreen; 
 	border: 10px;
 	max-width:850px;
-	margin: 10px 260px 0 260px;
+	margin: 10px 250px 0 250px;
 	clear:both;
 }
 div.body	{
@@ -138,7 +138,7 @@ div.sidebarOne {
 	position: absolute;
 	top: 0; 
 	bottom: -2000px; 
-	left: 1px;
+	left: -10px;
 	width: 250px;
 	margin: 0 auto;
 	clear: all;
@@ -149,7 +149,7 @@ div.sidebarTwo {
 	position: absolute;
 	top: 0; 
 	bottom:-2000px; 
-	right: 1px;
+	right: -10px;
 	width: 250px;
 	margin: 0 auto;
 	clear: all;
