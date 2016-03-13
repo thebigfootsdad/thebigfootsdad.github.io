@@ -39,21 +39,20 @@ body	{
 	background-color: seagreen; 
 	border: 10px;
 	max-width:850px;
-	margin: 10px 10px 0 10px;
+	margin: 10px 260px 0 260px;
 	clear:both;
 }
 div.body	{
 	display: block;
 	background-color: seagreen; 
-	border: 10px -240px 0 240px;
+	border: 10px;
 	max-width:850px;
-	margin: 10px -260px 0 260px;
+	margin: 20px 10px 0 10px;
 	clear:both;
 	padding: 10px 20px 10px 20px;
 }
 header {
 	background-color: seagreen;
-	margin: 10px 10px 0 10px;
 }
 h1		{
 	color: midnightblue; 
