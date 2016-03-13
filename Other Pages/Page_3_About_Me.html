@@ -1,175 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<style>
-			@font-face {
-			font-family: "timeburnerbold";
-			src: url("../Fonts/Timeburner/timeburnerbold.ttf");
-			}
-			@font-face {
-			font-family: "timeburnernormal";
-			src:url("../Fonts/Timeburner/timeburnernormal.ttf");
-			}
-			@font-face {
-			font-family: "Bellota-Bold";
-			src:url("../Fonts/Bellota/Bellota-Bold.otf");
-			}
-			@font-face {
-			font-family: "Bellota-BoldItalic";
-			src:url("../Fonts/Bellota/Bellota-BoldItalic.otf");
-			}
-			@font-face {
-			font-family: "Bellota-Italic";
-			src:url("../Fonts/Bellota/Bellota-Italic.otf");
-			}
-			@font-face {
-			font-family: "Bellota-Light";
-			src:url("../Fonts/Bellota/Bellota-Light.otf");
-			}
-			@font-face {
-			font-family: "bellota-LightItalic";
-			src:url("../Fonts/Bellota/Bellota-LightItalic.otf");
-			}
-			@font-face {
-			font-family: "Bellota-Regular";
-			src:url("../Fonts/Bellota/Bellota-Regular.otf");
-			}
-			@font-face {
-			font-family: "matchbook";
-			src:url("../Fonts/Matchbook/matchbook.otf");
-			}
-			section	{
-				background-color: #FFFCB7; 
-				width:780px;
-				margin:0 auto;
-				padding-bottom:10px;
-				padding-top: 5px;
-				margin-right: 310px;
-				margin-left: 92px;
-				padding-left: 50px;
-				padding-right: 110px;
-			}
-			body	{
-				display: block;
-				background-color: #FFFCB7; 
-				width:800px;
-				margin:0 auto;
-			}
-			#bodydiv	{
-				display: block;
-				background-color: #FFFCB7; 
-				right: 300px;
-				width:800px;
-				padding-bottom:10px;
-				padding-top: 5px;
-				padding-left: 50px;
-				padding-right: 110px;
-			}
-			header {
-				background-color: #FFFCB7;
-				width: 500px;
-				margin-right: 310px;
-				margin-left: 92px;
-				padding-left: 50px;
-				padding-right: 110px;
-			}
-			h1		{
-				color: blue; 
-				size: 30px;
-				font-family: Bellota-Bold;
-				word-spacing: 5px;
-			}
-			#h1BlockQuote		{
-				color: blue; 
-				size: 30px;
-				font-family: Bellota-Bold;
-				word-spacing: 5px;
-			}
-			h2		{
-				color: blue;
-				size: 25px;
-				font-family: timeburnerbold;
-				word-spacing: 5px;
-			}
-			p		{
-				color: green;
-				size: 20px;
-				font-family: timeburnernormal;
-				word-spacing: 5px;
-			}
-			li		{
-				color: green;
-				size: 20px;
-				font-family: timeburnernormal;
-				word-spacing: 5px;
-			}
-			big		{
-				color: green;
-				size: 15px;
-				font-family: Bellota-Light;
-				word-spacing: 5px;
-			}
-			small		{
-				color: green;
-				font-family: Bellota-Light;
-				word-spacing: 5px;
-			}
-			#bigIndent		{
-				color: green;
-				size: 20px;
-				font-family: timeburnernormal;
-			}
-			center		{
-				color: green;
-				size: 20px;
-				font-family: timeburnernormal;
-				word-spacing: 5px;
-			}
-			footer 	{
-				background-color: rgba(211, 211, 211, 0); 
-				clear: both;
-				padding-left: 150px;
-			}
-			a:link    {
-				color:blue; background-color:transparent; text-decoration:underline;
-			}
-			a:visited {
-				color:green; background-color:transparent; text-decoration:underline;
-			}
-			a:hover   {
-				color:red; background-color:transparent; text-decoration:underline;
-			}
-			a:active  {
-				color:yellow; background-color:transparent; text-decoration:underline;
-			}
-			#sidebarOne {
-				background-color: rgba(28, 220, 129, 0.49); 
-				position: absolute;
-				top:0; 
-				bottom: -2000px; 
-				left:1px;
-				width: 275px;
-				margin: 0 auto;
-				clear: both;
-				pdding-left: 10px;
-			}
-			#sidebarTwo {
-				background-color: rgba(28, 220, 129, 0.49);
-				position: absolute;
-				top:0; 
-				bottom:-2000px; 
-				right:1px;
-				width:275px;
-				margin: 0 auto;
-				clear: both;
-				padding-left: 10px;
-			}
-			#ArabicIndent {
-				dir: ltr;
-				lang: ar;
-				color: black;
-			}
-		</style>
+		<link rel="stylesheet" type="css" href="../stylesheet.css">
+
 		<title> About Me </title>
 	</head>
 	<header>
@@ -181,7 +14,7 @@
 		</section>
 	</body>
 	<aside>
-		<div id='sidebarOne'>
+		<div class='sidebarOne'>
 			<h1 format="title">&nbsp HI GUYS THERE IS <br /> &nbsp A SIDEBAR HERE!&nbsp </h1>
 			<p> &nbsp Contents: </p>
 			<ul>
@@ -200,23 +33,17 @@
 				&nbsp <a href="https://www.youtube.com/channel/UCCZ4RMJv7D1YVesMCjoO5DQ" target="_blank">Youtube</a> <br />
 			</big>
 		</div>
-		<div id='sidebarTwo'>
+		<div class='sidebarTwo'>
 		<h1>&nbsp About Me &nbsp </h1>
 		<h2>&nbsp Learn about <br />&nbsp my weird life</h2>
 		<p> &nbsp 
 		</div>
 	</aside>
 	<footer>
-			<iframe src="https://vine.co/v/iztlYWbg55r/embed/postcard?audio=1" width="600" height="600" frameborder="0"></iframe><script src="https://platform.vine.co/static/scripts/embed.js"></script>
-			<div id="google_translate_element"></div><script type="text/javascript">
-			function googleTranslateElementInit() {
-			new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.FloatPosition.TOP_LEFT, multilanguagePage: true}, 'google_translate_element');
-			}
-			</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 		<small>&copy; TheBigFoot'sDad <br />
 			All rights reserved <br />
 		</small>
-		<p id="ArabicIndent">
+		<p class="ArabicIndent">
 			&copy; ابّبيغفوت <br /> 
 			جميع الحقوق محفوظة
 		</p>
