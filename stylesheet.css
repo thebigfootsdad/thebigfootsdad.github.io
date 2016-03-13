@@ -45,9 +45,9 @@ body	{
 div.body	{
 	display: block;
 	background-color: seagreen; 
-	border: 10px;
+	border: 10px 240px 0 240px;
 	max-width:850px;
-	margin: 10px 500px 0 500px;
+	margin: 10px 260px 0 260px;
 	clear:both;
 	padding: 10px 20px 10px 20px;
 }
