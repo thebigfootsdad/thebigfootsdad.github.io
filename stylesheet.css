@@ -53,6 +53,7 @@ div.body	{
 }
 header {
 	background-color: #F08080;
+	padding:10px 10px 10px 10px;
 }
 h1		{
 	color: midnightblue; 
@@ -73,41 +74,41 @@ h2		{
 	word-spacing: 5px;
 }
 p 		{
-	color: Lavender;
+	color: purple;
 	size: 20px;
 	font-family: Bellota-Light;
 	word-spacing: 5px;
 }
 p.sidebar	{
-	color: Lavender;
+	color: purple;
 	size: 20px;
 	font-family: Bellota-Light;
 	word-spacing: 5px;
 }
 li		{
-	color: Lavender;
+	color: purple;
 	size: 20px;
 	font-family: Bellota-Light;
 	word-spacing: 5px;
 }
 big		{
-	color: Lavender;
+	color: purple;
 	size: 22px;
 	font-family: Bellota-Light;
 	word-spacing: 5px;
 }
 small		{
-	color: Lavender;
+	color: purple;
 	font-family: Bellota-Light;
 	word-spacing: 5px;
 }
 blockquote.bigIndent		{
-	color: Lavender;
+	color: purple;
 	size: 20px;
 	font-family: Bellota-Light;
 }
 center		{
-	color: Lavender;
+	color: purple;
 	size: 20px;
 	font-family: Bellota-Light;
 	word-spacing: 5px;
