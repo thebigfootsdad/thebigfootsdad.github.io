@@ -36,7 +36,7 @@
 }
 body	{
 	display: block;
-	background-color: seagreen; 
+	background-color: #778899; 
 	border: 10px;
 	max-width:850px;
 	margin: 10px 270px 0 270px;
@@ -44,7 +44,7 @@ body	{
 }
 div.body	{
 	display: block;
-	background-color: seagreen; 
+	background-color: #778899; 
 	border: 10px;
 	max-width:850px;
 	margin: 20px 10px 0 10px;
@@ -52,7 +52,7 @@ div.body	{
 	padding: 10px 20px 10px 20px;
 }
 header {
-	background-color: seagreen;
+	background-color: #778899;
 }
 h1		{
 	color: midnightblue; 
