@@ -139,9 +139,9 @@ a:active  {
 }
 div.sidebarOne {
 	background-color: rgba(64, 224, 208, 0.50); 
-	position: absolute;
+	position: fixed;
 	top: 0; 
-	bottom: -2000px; 
+	bottom: 0px; 
 	left: 1px;
 	width: 250px;
 	margin: 0 auto;
@@ -150,9 +150,9 @@ div.sidebarOne {
 }
 div.sidebarTwo {
 	background-color: rgba(64, 224, 208, 0.50);
-	position: absolute;
+	position: fixed;
 	top: 0; 
-	bottom:-2000px; 
+	bottom: 0px; 
 	right: 1px;
 	width: 250px;
 	margin: 0 auto;
